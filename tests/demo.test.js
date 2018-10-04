@@ -1,7 +1,7 @@
 var should = require("should");
 var User = function(name,nickname){
     this.name = name;
-    this.nickname = nickame;
+    this.nickname = nickname;
 };
 
 describe("Checking if the user is created correctly", function(){
