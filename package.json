@@ -2,16 +2,13 @@
   "name": "alice",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "should": "^13.2.3"
   },
   "scripts": {
-      "test": "mocha tests"
+      "test": "mocha tests",
+      "start": "node src/server.js"
   }
 }
